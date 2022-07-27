@@ -100,7 +100,7 @@ public class Main {
             JSONObject object = array.getJSONObject(i);
             if(object.getInt("matricula") == matricula){
                 System.out.println("Estudiante consultado: ");
-                System.out.println("Matrícula: " + object.getInt("matricula"));
+                System.out.println("Matricula: " + object.getInt("matricula"));
                 System.out.println("Nombre: " + object.getString("nombre"));
                 System.out.println("Carrera: " + object.getString("carrera"));
 
